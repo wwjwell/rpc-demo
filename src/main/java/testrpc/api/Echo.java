@@ -1,4 +1,4 @@
-package test.api;
+package testrpc.api;
 
 /**
  * Created by wwj on 2017/8/17.

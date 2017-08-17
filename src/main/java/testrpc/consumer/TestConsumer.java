@@ -1,7 +1,7 @@
-package test.consumer;
+package testrpc.consumer;
 
 import rpc.Consumer;
-import test.api.Echo;
+import testrpc.api.Echo;
 
 import java.util.Random;
 

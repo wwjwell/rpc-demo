@@ -1,6 +1,6 @@
-package test.provider.impl;
+package testrpc.provider.impl;
 
-import test.api.Cal;
+import testrpc.api.Cal;
 
 /**
  * Created by wwj on 2017/8/17.

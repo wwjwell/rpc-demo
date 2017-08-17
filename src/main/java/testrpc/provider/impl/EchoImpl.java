@@ -1,6 +1,6 @@
-package test.provider.impl;
+package testrpc.provider.impl;
 
-import test.api.Echo;
+import testrpc.api.Echo;
 
 import java.util.UUID;
 

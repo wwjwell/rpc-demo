@@ -1,7 +1,7 @@
-package test.provider;
+package testrpc.provider;
 
-import test.api.Echo;
-import test.provider.impl.EchoImpl;
+import testrpc.api.Echo;
+import testrpc.provider.impl.EchoImpl;
 import rpc.Provider;
 
 /**
@@ -11,7 +11,7 @@ public class TestProvider {
     public static void main(String[] args) {
         Provider provider = new Provider();
         provider.export(new EchoImpl(), Echo.class);
-//        test.provider.export(new CalImpl(), Cal.class);
+//        testrpc.provider.export(new CalImpl(), Cal.class);
         provider.start();
     }
 }
