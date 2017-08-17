@@ -3,7 +3,7 @@
 ```java
     Provider provider = new Provider();
     provider.export(new EchoImpl(), Echo.class); //export api
-    provider.start(); provider start
+    provider.start(); //provider start
 ```
 ## consumer
 ```java
