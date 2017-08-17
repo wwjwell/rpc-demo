@@ -9,7 +9,7 @@ public class Invocation implements Serializable {
     private static final long serialVersionUID = -615712407256946194L;
     private String className;
     private String methodName;
-    private Class<?>[] paramterTypes;
+    private Class<?>[] parameterTypes;
     private Object[] args;
 
     public String getClassName() {
@@ -28,12 +28,12 @@ public class Invocation implements Serializable {
         this.methodName = methodName;
     }
 
-    public Class<?>[] getParamterTypes() {
-        return paramterTypes;
+    public Class<?>[] getParameterTypes() {
+        return parameterTypes;
     }
 
-    public void setParamterTypes(Class<?>[] paramterTypes) {
-        this.paramterTypes = paramterTypes;
+    public void setParamterTypes(Class<?>[] parameterTypes) {
+        this.parameterTypes = parameterTypes;
     }
 
     public Object[] getArgs() {
