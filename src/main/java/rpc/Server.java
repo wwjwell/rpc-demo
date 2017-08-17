@@ -19,7 +19,7 @@ public class Server {
     public void export(final Object target, Class<?> clazz){
         provders.put(clazz.getName(), new Invoker() {
             public Object doInvoker(Invocation invocation) throws Exception {
-                Method method = target.getClass().getMethod(invocation.getMethodName(), invocation.getParamterTypes());
+                Method method = target.getClass().getMethod(invocation.getMethodName(), invocation.getParameterTypes());
                 return method.invoke(target, invocation.getArgs());
             }
         });
